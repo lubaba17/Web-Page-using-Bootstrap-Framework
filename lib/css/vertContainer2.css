@@ -1,0 +1,93 @@
+.vertical-container2{
+	height: 1700px;
+	width: 300px;
+	right:110px;
+	position:relative;
+	background-color:#f1f1f1;
+	float:left;
+	
+	
+}
+
+.today{
+	background-color: #dfdfdf;
+}
+
+#glyph{
+	margin-left:4rem;
+	margin-right:2rem;
+	color:white;
+	font-size: 33px;'
+}
+
+#glyphLast{
+	margin-left:4rem;
+	margin-right:2rem;
+	color:gray;
+	font-size: 40px;
+}
+
+.img-circle{
+	margin-top: 2rem;
+	margin-left: 2rem;
+	width: 45px;
+	position: relative;
+}
+
+th{
+	color: #49596f;
+	margin-left:5rem;
+	margin-top:1rem;
+	margin-bottom: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	
+}
+
+td {
+width: 100%;
+display: inline-table;
+height:90px;              
+}
+
+.fa{
+	float:right;
+	color:#FF4A4A;
+	font-size:24px;
+	
+}
+
+#sidebar.affix {
+    position: fixed;
+    
+  }
+  
+ p{
+	 color: #528484;
+	 font-family: 'Open Sans', sans-serif;
+	 float:right;
+	 position:relative;
+	 margin-right:7rem;
+	 margin-top:2rem;
+	 
+ }
+ 
+ 
+ label{
+	 float:right;
+	 font-family: 'PT Sans', sans-serif;
+	 color: #495D71;
+	 position:relative;
+	 margin-right:4rem;
+	 margin-top:3rem;
+	 
+ }
+ #label1{
+	 float:right;
+	 font-family: 'PT Sans', sans-serif;
+	 color: #495D71;
+	 position:relative;
+	 margin-right:6.7rem;
+	 margin-top:3rem;
+ }
+ 

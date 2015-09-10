@@ -1,0 +1,159 @@
+.horizontal-container3{
+	width:985px;
+	height:610px;
+	float:left;
+	position:relative;
+	position:absolute;
+	margin-left:260px;
+	background-color:white;
+} 
+#in{
+	float:left;
+	color:white;
+	font-size:22px;
+}
+#skype{
+	position:absolute;
+	left:0px;
+	margin-left:62.8rem;
+	margin-top:1.8rem;
+}
+#agenda{
+	color: #40506f;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-left:27px;
+	margin-top:18px;
+}
+#text-last{
+	color: #40506f;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	float:left;
+    margin-left:170px;
+}
+#text-last1{
+	
+	text-align:center; 
+    vertical-align: middle;
+	float:left;
+   
+	
+}
+#system-search3{
+	width: 400px;
+	height:40px;
+	position:center;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	top: 50%;
+    left: 50%;
+	margin-left:8px;
+	float:left;
+}
+#search-but{
+	background-color:white;
+	float:right;
+	margin-left:160px;
+	border:none;
+	
+}
+
+#tab2{
+	position:absolute;
+	left:0px;
+	margin-left:335px;
+}
+#tab3{
+	position:absolute;
+	left:0px;
+	margin-left:653px;
+}
+#down{
+	margin-top:40px;
+}
+#prepare{
+	width: 80px;
+	height:30px;
+    border: 0 none;
+    letter-spacing: 0px;
+	font:right;
+	position:relative;	
+	margin-left:2rem;
+	margin-top: 2.5rem;
+	
+}
+.glyphicon-search{
+	color:gray;
+	font-size:15px;
+}
+
+#last-button1{
+	width: 235px;
+	height:30px;
+    border: 0 none;
+    letter-spacing: 0px;
+	float:left;
+	margin-left:-5rem;
+	position:relative;
+	
+	margin-top: 7rem;
+}
+#last-button2{
+	width: 235px;
+	height:30px;
+    border: 0 none;
+    letter-spacing: 0px;
+	float:right;
+	position:relative;
+	margin-right:30rem;
+	margin-top: 7rem;
+}
+#smallBut {
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 11px;
+  line-height: 1.42;
+  border-radius: 50%;
+  float:right;
+  margin-right:694px;
+  margin-top:16px;
+}
+#fa-border{
+	margin-top:2.3rem;
+	float:right;
+	position:absolute;
+}
+#imgUp{
+	margin-top:1.5rem;
+}
+#table-text{
+	margin-right:3rem;
+}
+
+#tableBorder{
+	width: 380px;;
+	display: inline-table;
+	height: 77px; 
+}
+
+#tableBorder1{
+	width: 300px;;
+	display: inline-table;
+	height: 77px; 
+}
+#tableBorder2{
+	width: 260px;;
+	display: inline-table;
+	height: 77px; 
+}
+#tableBorder3{
+	width: 120px;;
+	display: inline-table;
+	height: 77px; 
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html ng-app= "RelatasPage">
+	<html>
+	<script src="lib/js/angular.min.js"></script>
+	<script src="lib/js/angular-route.min.js"></script>
+	<script src="lib/js/bootstrap.min.js"></script>
+	<script src="lib/js/jquery.min.js"></script>
+	<script src="lib/js/time-carousel.js"></script>
+	<script type="text/javascript" src="lib/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="lib/js/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="lib/js/slick.min.js"></script>
+	
+	<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/css/font-awesome.css">
+	<link rel="stylesheet" href="lib/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="lib/css/slick-theme.css"/>
+	<link rel="stylesheet" href="lib/css/headerStyle.css">	
+	<link rel="stylesheet" href="lib/css/vertContainer1.css">
+	<link rel="stylesheet" href="lib/css/vertContainer2.css">
+	<link rel="stylesheet" href="lib/css/hortContainer1.css">
+	<link rel="stylesheet" href="lib/css/hortContainer2.css">
+	<link rel="stylesheet" href="lib/css/hortContainer3.css">
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<img src="lib/relatas_logo.jpg" id="logo" />
+				<div class="header"> 
+					<form class="navbar-form" role="search">
+						<input class="form-control" id="system-search" name="q" required>
+							<span class="input-group-btn" >
+								<button type="submit" class="btn btn-success"><i id="search" class="glyphicon glyphicon-search"></i></button>
+							</span>
+						</input>
+					</form>
+				</div>
+		</nav>
+		<div class="container">
+			<nav class="nav nav-pills nav-stacked" >
+				<div class="vertical-container1" id="sidebar" ><br><br><br><br>
+					<i class="fa fa-calendar-minus-o" id="glyph"></i><br><br><br><br>			
+					<i class="fa fa-share-alt" id="glyph"></i><br><br><br><br>
+					<i class="fa fa-list-alt"  id="glyph"></i><br><br><br><br>
+					<i class="fa fa-calendar-minus-o" id="glyph"></i><br><br><br><br>
+					<i class="fa fa-bar-chart" id="glyph"></i><br><br><br><br>
+					<i class="fa fa-bell" id="glyph"></i><br><br><br><br>
+					<i class="fa fa-tag" id="glyphLast"></i><br><br><br>
+
+				</div>
+            </nav>
+			<div class="vertical-container2" >
+				<table class="table table-hover">
+				<br><br>
+					<thead>
+					  <tr>
+						<th>Your Schedule</th>
+					  </tr>
+					  <tr>
+						<th class="today">TODAY <i class="fa fa-calendar-minus-o"></i></th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<b><p> Binil Jha<br>11:00 AM- 11:30 AM </b>
+						<br>Call on next steps</p>
+						</td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<b><p> Kabir Khan<br>15:30 PM- 16:30 PM </b>
+						<br>Interview Follow Up</p>
+						</td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<b><p> Naveen Kaushal<br>12:30 PM- 01:30 PM </b>
+						<br>Interview Follow Up</p>
+						</td>
+					  </tr>
+					</tbody>
+					<tr>
+						<th class="today">NEW INVITATIONS <i class="fa fa-caret-square-o-down"></i></th>
+					 </tr>
+					<tbody>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" > 
+						<b><p> Kabir Khan<br>03 Jun 2015<br>11:00 AM- 11:30 AM 
+						<br>Skype: tiger 3</b></p>
+						</td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" >
+						<b><p> Naveen Kaushal<br>04 Jun 2015<br>14:00 PM- 15:30 PM
+						<br>Call on next steps</b></p>
+						</td>
+					  </tr>
+					</tbody>
+					<tr>
+						<th class="today">TASKS <i class="fa fa-check-square-o"></i></th>
+					 </tr>
+					<tbody>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" ><label><input type="checkbox"> &nbsp; Send the Sales Report<br>
+						<input type="checkbox" id="check"> &nbsp; Dinner reservations<br>&nbsp; &nbsp;&nbsp;&nbsp; for Meeting</label></td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" ><label id="label1"><input type="checkbox">&nbsp; Send latest layouts</label><label>  </td>
+					</tbody>
+					<tr>
+						<th class="today">UPCOMING <i class="fa fa-calendar"></i></th>
+					 </tr>
+					<tbody>
+					  <tr id="tableView">
+						<td id="trans"><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						
+						<p><b> Suresh Hoel<br>15:30 PM - 16:30 PM </b>
+						<br>Interview Follow Up</p></td><br><br>
+				        <td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<p><b> Sumit Rampal<br>17:30 PM - 18:30 PM </b>
+						<br>Layout Discussions</p><br><button type="button" class="btn btn-success" id="view">View All</button>
+						</td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<p><b> Suresh Hoel<br>15:30 PM - 16:30 PM </b>
+						<br>Interview Follow Up</p></td>
+					  </tr>
+					  <tr>
+						<td><img src="lib/emp.jpg" class="img-circle" alt="Cinque Terre">
+						<p><b> Suresh Hoel<br>15:30 PM - 16:30 PM </b>
+						<br>Interview Follow Up</p></td>
+					</tbody>
+			  </table>
+			</div>
+			<div class="background">
+			<br><br>
+				<img src="lib/Chile.jpg" id="chile" />
+				<div class="transbox">
+					<br><br><br><br> <br><br> <br><br> <br><br> <br><br> <br><br> 
+					<span id="text-black">Santiago, Chile |11 Jun 2015 | Temp 17C/2C &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Today Meetings:3 Tasks:1</p> </span>
+				</div>
+				<label id="arrows">
+				<p><i class="fa fa-arrow-circle-up" id="arrow"></i></p>
+				<p><i class="fa fa-arrow-circle-down" id="arrow1"></i></p>
+				<p><i class="fa fa-arrow-circle-down" id="arrow1"></i></p>
+				<p><i class="fa fa-arrow-circle-up" id="arrow"></i></p></label>
+				<label id="numbers"><span>05</span> <span>02</span> <span>07</span> <span>04</span> <span id="oo">00</span> </label>
+				<button type="button" class="btn btn-success" id="setup">Set Up <i class="fa fa-info-circle" id="i"></i></button>
+				<label id="touch"><p id="span1"> Social Updates</p> <p id="span2">Email Awaiting <br>&nbsp;&nbsp;&nbsp;Responses</p>  <p id="span3"> Email Responses<br>&nbsp; &nbsp; &nbsp; Pending</p>  <p id="span4"> Un-Prepared <br>&nbsp;&nbsp;&nbsp;Meetings</p> <p id="span5">Loosing Touch</p> </label>
+
+			</div>
+			<div class="horizontal-container2">
+			<center>
+				<br><p id="horz2">You have a meeting in <b>San Francisco today</b>. Recommend people to meet while you are there</p><br><br><br>
+				<form class="navbar-form" role="search">
+					<input class="form-control" id="system-search1" name="e" type="text" required > 
+					<input class="form-control" id="system-search2" name="g" type="text" required>
+					<p id="and">AND</p>
+				<span class="input-group-btn" ><button type="submit" class="btn btn-success" id="go"> GO </button></span>
+				</form>
+			</center>
+			
+			<div class="your-class">
+				<div><img src="lib/img1.jpg" class="img-circle" id="time-img"></div>
+				<div><img src="lib/img2.jpg"  class="img-circle" id="time-img"></div>
+				<div><img src="lib/img3.jpg" class="img-circle" id="time-img"></div>
+				<div><img src="lib/img4.jpg" class="img-circle" id="time-img"></div>
+				<div><img src="lib/img5.jpg" class="img-circle" id="time-img"></div>
+			  </div> 
+			 <label id="touch"><p id="below1"> <b>John Doe</b></p> <p id="below2"> <b> Adam Will </b></p><p id="below3"> <b>Kate Homes</b></p><p id="below4"><b>Liz Connelly</b></p><p id="below5"> <b>Jill Depp</b></p></label>
+			 <label id="touch"><p id="interact1"> <b>Interactions: 13</b></p> <p id="interact2"> <b> Interactions: 05 </b></p><p id="interact3"> <b>Interactions: 12</b></p><p id="interact4"><b>Interactions: 24</b></p><p id="interact5"> <b>Interactions: 10</b></p></label>
+			</div>
+			
+			<div class="horizontal-container3">
+			<b id="agenda">TODAY'S AGENDA (11 Jun 2015)</b>
+			<button type="button" class="btn btn-default btn-circle btn-lg" id="smallBut"><i class="glyphicon glyphicon-menu-right" id="menuglyph"></i></button>
+			<table class="table table-bordered" id="down"><br>
+                    <tr>
+						<td id="tableBorder1"><img src="lib/emp.jpg" class="img-circle" id="imgUp" >&nbsp; &nbsp;<i class="fa fa-clock-o" id="fa-border"></i>
+						<p id="table-text"><b>Sumit Rampal<br>11:30 AM - 12:30 PM<br></p>
+
+						<td id="tableBorder1"><p id="tab2">Layout Discussions</p>
+						<td id="tableBorder2"><i class="fa fa-skype" id="skype"></i><p id="tab3">Pixelwonderz</p>
+						<td id="tableBorder3"><button type="button" class="btn btn-success" id="prepare">Prepare</button>
+					<tr>
+					 <tr>
+						<td id="tableBorder1"><img src="lib/emp.jpg" class="img-circle"id="imgUp" >&nbsp; &nbsp;<i class="fa fa-clock-o" id="fa-border"></i>
+						<p id="table-text"><b>Suresh Hoel<br>14:00 PM - 16:30 PM<br></p>
+						<td id="tableBorder1"><p id="tab2">Interview Follow up for the<br> Technology Head position</p>
+						<td id="tableBorder2"><p id="tab3">Hotel Bayswater, <br> Bangalore, India</p>
+						<td id="tableBorder3"><button type="button" class="btn btn-success" id="prepare">Prepare</button>
+					<tr>
+					<tr>
+						<td id="tableBorder1"><img src="lib/emp.jpg" class="img-circle"id="imgUp" >&nbsp; &nbsp;<i class="fa fa-clock-o" id="fa-border"></i>
+						<p id="table-text"><b>Goel Sahni<br>17:30 PM - 18:30 PM<br></p>
+						<td id="tableBorder1"><p id="tab2">Interview Follow up for the<br> Technology Head position</p>
+						<td id="tableBorder"><p id="tab3">Hotel Bayswater, <br> Bangalore, India</p>
+					<tr>
+										
+			</table>
+			<center >
+			 <p id="text-last">Why not connect with someone <b>NEW </b> today ?<br>Search for any of <b>650,000</b> networked contacts and we will help you conect</p><br><br><br><br>
+			 
+				  <div class="col-md-3">
+  
+					  <form class="navbar-form" role="search">
+						<div class="input-group add-on">
+						  <input class="form-control" placeholder="Search" name="srch-term" id="system-search3" type="text">
+						  <div class= "input-group-btn">
+							<button class="btn btn-default" type="submit" id="search-but"><i class="glyphicon glyphicon-search"></i></button>
+						  </div>
+						</div>
+					  </form>
+				  </div>
+					<br>
+			 <button type="button" class="btn btn-success" id="last-button1" id=><i class="fa fa-file-excel-o" id="in"></i>
+			 &nbsp;&nbsp;Upload Contacts from XLS</button>
+			 <button type="button" class="btn btn-success" id="last-button2" ><i class="fa fa-linkedin-square" id="in"></i>
+			 &nbsp;&nbsp;Import LinkedIn Contacts</button>
+			</center>
+			</div>
+		</div>
+	</body>
+	</html>
