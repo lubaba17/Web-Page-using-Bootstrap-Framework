@@ -71,13 +71,41 @@
 	margin-top:24px;
 
 }
-#time-img{
+#time-img1{
+   width: 88px;
+   display:inline;
+   overflow:hidden;
+	
+	
+}
+#time-img2{
 	width: 88px;
-	word-spacing:30px;
-
+	display:inline;
+   overflow:hidden;
+	
+}
+#time-img3{
+	width: 88px;
+	display:inline;
+   overflow:hidden;
+	
+}
+#time-img4{
+	width: 88px;
+	display:inline;
+   overflow:hidden;
+   
+	
+}
+#time-img5{
+	width: 88px;
+   display:inline;
+   overflow:hidden;	
+	
 }
 #below1{
 	left:17.6rem;
+	
 	
 }
 #below2{
